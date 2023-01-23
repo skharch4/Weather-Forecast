@@ -19,7 +19,7 @@ description=response
 sunrise_time= dt.datetime.utcfromtimestamp(response['sys'] ['sunrise'] + response['timezone'])
 sunset_time= dt.datetime.utcfromtimestamp(response['sys'] ['sunset'] + response['timezone'])
 humidity=response ['main']['humidity']
-print(response)
+#print(response)
 print(f"Temperature in {CITY}: {temp_celsius: .2f}°C")
 print(f"Temperature in {CITY} feels like: {feels_like_celsius: .2f}°C")
 print(f"Sun rise in {CITY} in: {sunrise_time}")
